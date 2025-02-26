@@ -3,7 +3,7 @@ package nationalize;
 import com.google.gson.annotations.SerializedName;
 import java.util.List;
 
-@lombok.data
+@lombok.Data
 public class Nationality {
 
     private long count;
@@ -12,7 +12,7 @@ public class Nationality {
     @SerializedName("country")
     private List<Country> countries;
 
-    @lombok.data
+    @lombok.Data
     public static class Country {
 
         private String countryId;
